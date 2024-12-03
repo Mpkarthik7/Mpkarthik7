@@ -1,0 +1,44 @@
+Git Hub
+1.git --version
+2.git config --global user.name " 
+3.git config --global user.eamil  " 
+4.git config --list - show the all config 
+5.git help config
+6.git verb --help - to know the cmd in details
+
+
+TWO SCENERIOS 
+INITIALZE   REPOSITORY FROM EXISITING CODE
+git init
+rm -rf .git- used to delete 
+BEFORE FIRST COMMIT
+git status - to known the 
+
+WHERE ARE WE KNOW
+WORKING --- STATGING AREA-- GIT DIRECTORY
+ADDSTATGING AREA 
+CMD ; git -A
+REMOVE FILES FROM STAGING AREA
+git reset
+commit the 
+git commit -m " initial commit "
+git log 
+
+CLONING A REMOTE REPO
+git clone <url> <where to clone>
+
+VIEWING INFORMATION ABOUT THE REMOTE REPOSITORY
+
+git remote -v
+git branch -a
+
+PUSHING CHNAGES 
+COMMIT CHANGES LIKE WE DID PREVIOUSLY 
+
+git diff- show me the changes what we are did
+git status
+git add -A - we are adding to staagig stage
+git commit -m " 
+THEN PUSH
+git pull " name of the repo  , branch "
+git push 
