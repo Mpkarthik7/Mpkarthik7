@@ -1,0 +1,22 @@
+For the Jenkins software requires prerequities 
+1. java version 11
+  * RUN The following cmds for the java 
+    *sudo apt update
+    *sudo apt install openjdk-11-jdk
+ For Java version check : java 
+for the Jenkins you get scripts from chrome to get serach " install Jenkinson ubuntu _ then after choose the reak=lated platfrom then copy that script and run in CMD .
+
+I,e ;
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+
+
+
+shutdown cmd for the instance 
+AWS :i-0618f3480dcc9e207
+aws ec2 stop-instances --instance-ids i-0618f3480dcc9e207
