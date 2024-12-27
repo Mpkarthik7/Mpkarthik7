@@ -10,3 +10,8 @@ Now , you log in that insatnce through the GIT BASH" following cmd " SSH -I key_
 SOME KEY CONCEPTS TO REMEMBER 
 WHILE ACCESS THE EC2 INSTANCE FROM THE REMOTE , IN THE SECURITY GROUP -- INBOUND TRAFFICE -- CHECK THE SSH IS ENABLED OR NOT -- 
 ** THE SECURITY GROUP IS ACT AT THE INSTANCE LEVEL - YOU CAN ASSIGN AND CONTROL THE TRAFFIC THROUGH THIS SECURITY GORUP -- 
+
+
+============================V P C ==================================================================================================================================================
+1. scp -i C:/Users/Administrator/Downloads/my-key.pem C:/Users/Administrator/Downloads/fresh.pem ubuntu@18.232.101.94:/home/ubuntu/  - correct cmd
+    Rule : first open with the access key, then after source loaction and define the Destination location 
