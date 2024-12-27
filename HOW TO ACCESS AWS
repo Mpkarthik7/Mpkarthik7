@@ -1,0 +1,12 @@
+1. Through the AWS console - you can log in through root user
+creation/ launch of instance
+a. in search bar search for the " Instance EC2 ".
+b. click on the LANUCH EC2 Instance -- enter name -- select the OS -- In Network section for the first go with the default options -- key access for this " click on create key option " -- THEN LANUCH INSTANCE.....
+Afetr lanuching go to EC2 Dashboard -- you find the lanuched instances -- you find the IP public Address.
+Now , you log in that insatnce through the GIT BASH" following cmd " SSH -I key_name.pem machinename@public ip address of machine --- example " ssh -i aws_key.pem ubuntu@2.3.45.6
+
+           ====================================== THIS IS THE PROCESS OF LOG IN TO THE AWS ACCOUNT  =============================================================================
+
+SOME KEY CONCEPTS TO REMEMBER 
+WHILE ACCESS THE EC2 INSTANCE FROM THE REMOTE , IN THE SECURITY GROUP -- INBOUND TRAFFICE -- CHECK THE SSH IS ENABLED OR NOT -- 
+** THE SECURITY GROUP IS ACT AT THE INSTANCE LEVEL - YOU CAN ASSIGN AND CONTROL THE TRAFFIC THROUGH THIS SECURITY GORUP -- 
